@@ -216,6 +216,33 @@ SDLShooter/
 - **模板设计**：`EntityManager` 支持多种实体类型
 - **资源管理**：SDL 负责纹理、音频、字体的生命周期管理
 
+## 📦 打包与分发
+
+### 生成安装包
+项目支持使用 **CPack + NSIS** 生成专业的 Windows 安装包。
+
+#### 快速开始
+```bash
+# 使用提供的打包脚本（最简单）
+scripts\package.bat
+
+# 或手动构建
+cmake -B build -S . -G "Visual Studio 17 2022" -A x64 -DCMAKE_BUILD_TYPE=Release
+cmake --build build --config Release
+cd build && cpack -C Release
+```
+
+#### 安装包内容
+生成的安装包 (`SDLShooter-0.1.0-win64.exe`) 包含：
+- 游戏可执行文件
+- SDL2 运行时库（SDL2.dll, SDL2_image.dll 等）
+- 所有游戏资源文件（图像、音频、字体）
+- 自动安装 Visual C++ Redistributable
+- 开始菜单快捷方式和卸载程序
+
+#### 详细文档
+详见 [PACKAGING.md](PACKAGING.md) 获取完整的打包指南。
+
 ## 🎵 资源文件
 
 ### 图像资源 (`assets/image/`)

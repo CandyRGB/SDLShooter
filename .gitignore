@@ -2,3 +2,288 @@
 /build
 /LI.md
 /out
+test-build/ALL_BUILD.vcxproj
+test-build/ALL_BUILD.vcxproj.filters
+test-build/cmake_install.cmake
+test-build/CMakeCache.txt
+test-build/CPackConfig.cmake
+test-build/CPackSourceConfig.cmake
+test-build/INSTALL.vcxproj
+test-build/INSTALL.vcxproj.filters
+test-build/PACKAGE.vcxproj
+test-build/PACKAGE.vcxproj.filters
+test-build/SDLShooter-Windows.vcxproj
+test-build/SDLShooter-Windows.vcxproj.filters
+test-build/SDLShooter.sln
+test-build/ZERO_CHECK.vcxproj
+test-build/ZERO_CHECK.vcxproj.filters
+test-build/CMakeFiles/cmake.check_cache
+test-build/CMakeFiles/CMakeConfigureLog.yaml
+test-build/CMakeFiles/generate.stamp
+test-build/CMakeFiles/generate.stamp.depend
+test-build/CMakeFiles/generate.stamp.list
+test-build/CMakeFiles/TargetDirectories.txt
+test-build/CMakeFiles/04c197e459c5848f85af6d817b049768/generate.stamp.rule
+test-build/CMakeFiles/04c197e459c5848f85af6d817b049768/INSTALL_force.rule
+test-build/CMakeFiles/04c197e459c5848f85af6d817b049768/PACKAGE_force.rule
+test-build/CMakeFiles/3.31.6-msvc6/CMakeCCompiler.cmake
+test-build/CMakeFiles/3.31.6-msvc6/CMakeCXXCompiler.cmake
+test-build/CMakeFiles/3.31.6-msvc6/CMakeDetermineCompilerABI_C.bin
+test-build/CMakeFiles/3.31.6-msvc6/CMakeDetermineCompilerABI_CXX.bin
+test-build/CMakeFiles/3.31.6-msvc6/CMakeRCCompiler.cmake
+test-build/CMakeFiles/3.31.6-msvc6/CMakeSystem.cmake
+test-build/CMakeFiles/3.31.6-msvc6/VCTargetsPath.txt
+test-build/CMakeFiles/3.31.6-msvc6/VCTargetsPath.vcxproj
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.c
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/CompilerIdC.exe
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/CompilerIdC.vcxproj
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CMakeCCompilerId.obj
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.exe.recipe
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/Cl.items.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/link.secondary.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.cpp
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.vcxproj
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.exe.recipe
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/Cl.items.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.secondary.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog
+test-build/CMakeFiles/3.31.6-msvc6/VCTargetsPath/x64/Debug/VCTargetsPath.recipe
+test-build/CMakeFiles/3.31.6-msvc6/VCTargetsPath/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate
+build-package/ALL_BUILD.vcxproj
+build-package/ALL_BUILD.vcxproj.filters
+build-package/cmake_install.cmake
+build-package/CMakeCache.txt
+build-package/CPackConfig.cmake
+build-package/CPackSourceConfig.cmake
+build-package/install_manifest_game.txt
+build-package/install_manifest_resources.txt
+build-package/install_manifest_runtime.txt
+build-package/INSTALL.vcxproj
+build-package/INSTALL.vcxproj.filters
+build-package/PACKAGE.vcxproj
+build-package/PACKAGE.vcxproj.filters
+build-package/SDL Shooter-0.1.0-win64.exe
+build-package/SDLShooter-Windows.vcxproj
+build-package/SDLShooter-Windows.vcxproj.filters
+build-package/SDLShooter.sln
+build-package/ZERO_CHECK.vcxproj
+build-package/ZERO_CHECK.vcxproj.filters
+build-package/CMakeFiles/cmake.check_cache
+build-package/CMakeFiles/CMakeConfigureLog.yaml
+build-package/CMakeFiles/generate.stamp
+build-package/CMakeFiles/generate.stamp.depend
+build-package/CMakeFiles/generate.stamp.list
+build-package/CMakeFiles/TargetDirectories.txt
+build-package/CMakeFiles/0b43c7d75dfd33880eee4477a774fc4e/generate.stamp.rule
+build-package/CMakeFiles/0b43c7d75dfd33880eee4477a774fc4e/INSTALL_force.rule
+build-package/CMakeFiles/0b43c7d75dfd33880eee4477a774fc4e/PACKAGE_force.rule
+build-package/CMakeFiles/3.31.6-msvc6/CMakeCCompiler.cmake
+build-package/CMakeFiles/3.31.6-msvc6/CMakeCXXCompiler.cmake
+build-package/CMakeFiles/3.31.6-msvc6/CMakeDetermineCompilerABI_C.bin
+build-package/CMakeFiles/3.31.6-msvc6/CMakeDetermineCompilerABI_CXX.bin
+build-package/CMakeFiles/3.31.6-msvc6/CMakeRCCompiler.cmake
+build-package/CMakeFiles/3.31.6-msvc6/CMakeSystem.cmake
+build-package/CMakeFiles/3.31.6-msvc6/VCTargetsPath.txt
+build-package/CMakeFiles/3.31.6-msvc6/VCTargetsPath.vcxproj
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.c
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/CompilerIdC.exe
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/CompilerIdC.vcxproj
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CMakeCCompilerId.obj
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.exe.recipe
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/Cl.items.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/link.secondary.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.cpp
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.vcxproj
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.exe.recipe
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/Cl.items.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.secondary.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog
+build-package/CMakeFiles/3.31.6-msvc6/VCTargetsPath/x64/Debug/VCTargetsPath.recipe
+build-package/CMakeFiles/3.31.6-msvc6/VCTargetsPath/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate
+build-package/SDLShooter-Windows.dir/Release/AngleCalculator.obj
+build-package/SDLShooter-Windows.dir/Release/Game.obj
+build-package/SDLShooter-Windows.dir/Release/HealthSystem.obj
+build-package/SDLShooter-Windows.dir/Release/main.obj
+build-package/SDLShooter-Windows.dir/Release/resource.res
+build-package/SDLShooter-Windows.dir/Release/SceneMain.obj
+build-package/SDLShooter-Windows.dir/Release/SceneResult.obj
+build-package/SDLShooter-Windows.dir/Release/SceneTitle.obj
+build-package/SDLShooter-Windows.dir/Release/SDLShooter-Windows.exe.recipe
+build-package/SDLShooter-Windows.dir/Release/SoundManager.obj
+build-package/SDLShooter-Windows.dir/Release/TextureManager.obj
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/CL.command.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/Cl.items.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/CL.read.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/CL.write.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/CustomBuild.command.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/CustomBuild.read.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/CustomBuild.write.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/link.command.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/link.read.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/link.secondary.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/link.write.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/rc.command.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/rc.read.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/rc.write.1.tlog
+build-package/SDLShooter-Windows.dir/Release/SDLShoot.C2DC109C.tlog/SDLShooter-Windows.lastbuildstate
+build-package/_CPack_Packages/win64/NSIS/NSIS.InstallOptions.ini
+build-package/_CPack_Packages/win64/NSIS/project.nsi
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64.exe
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/game/bin/SDLShooter-Windows.exe
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/effect/explosion.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/font/VonwaonBitmap-12px.ttf
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/font/VonwaonBitmap-16px.ttf
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bg.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bonus_atk.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bonus_bullet.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bonus_energy.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bonus_life.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bonus_shield.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bonus_speed.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bonus_time.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bullet-1.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bullet-2.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/bullet.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/energy-bar.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/energy0%.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/energy100%.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/fire.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/Health UI Black.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/icon.ico
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/icon.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/insect-1.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/insect-2.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/insect-boss.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/large-A.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/large-B.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/laser-1.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/laser-2.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/laser-3.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/medium-A.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/medium-B.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/plasm.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/rocket.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/Shield UI Black.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/shield-front.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/shield.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/small-A.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/small-B.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/SpaceShip.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/Stars-A.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/Stars-B.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/image/support.png
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/music/03_Racing_Through_Asteroids_Loop.ogg
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/music/06_Battle_in_Space_Intro.ogg
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/sound/eff5.wav
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/sound/eff11.wav
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/sound/explosion1.wav
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/sound/explosion3.wav
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/sound/laser_shoot4.wav
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/assets/sound/xs_laser.wav
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/docs/GAME_RULES.md
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/docs/LICENSE.md
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/resources/docs/README.md
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/runtime/bin/SDL2_image.dll
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/runtime/bin/SDL2_mixer.dll
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/runtime/bin/SDL2_ttf.dll
+build-package/_CPack_Packages/win64/NSIS/SDL Shooter-0.1.0-win64/runtime/bin/SDL2.dll
+build-package/assets/.DS_Store
+build-package/assets/effect/explosion.png
+build-package/assets/font/VonwaonBitmap-12px.ttf
+build-package/assets/font/VonwaonBitmap-16px.ttf
+build-package/assets/image/bg.png
+build-package/assets/image/bonus_atk.png
+build-package/assets/image/bonus_bullet.png
+build-package/assets/image/bonus_energy.png
+build-package/assets/image/bonus_life.png
+build-package/assets/image/bonus_shield.png
+build-package/assets/image/bonus_speed.png
+build-package/assets/image/bonus_time.png
+build-package/assets/image/bullet-1.png
+build-package/assets/image/bullet-2.png
+build-package/assets/image/bullet.png
+build-package/assets/image/energy-bar.png
+build-package/assets/image/energy0%.png
+build-package/assets/image/energy100%.png
+build-package/assets/image/fire.png
+build-package/assets/image/Health UI Black.png
+build-package/assets/image/icon.ico
+build-package/assets/image/icon.png
+build-package/assets/image/insect-1.png
+build-package/assets/image/insect-2.png
+build-package/assets/image/insect-boss.png
+build-package/assets/image/large-A.png
+build-package/assets/image/large-B.png
+build-package/assets/image/laser-1.png
+build-package/assets/image/laser-2.png
+build-package/assets/image/laser-3.png
+build-package/assets/image/medium-A.png
+build-package/assets/image/medium-B.png
+build-package/assets/image/plasm.png
+build-package/assets/image/rocket.png
+build-package/assets/image/Shield UI Black.png
+build-package/assets/image/shield-front.png
+build-package/assets/image/shield.png
+build-package/assets/image/small-A.png
+build-package/assets/image/small-B.png
+build-package/assets/image/SpaceShip.png
+build-package/assets/image/Stars-A.png
+build-package/assets/image/Stars-B.png
+build-package/assets/image/support.png
+build-package/assets/music/03_Racing_Through_Asteroids_Loop.ogg
+build-package/assets/music/06_Battle_in_Space_Intro.ogg
+build-package/assets/sound/eff5.wav
+build-package/assets/sound/eff11.wav
+build-package/assets/sound/explosion1.wav
+build-package/assets/sound/explosion3.wav
+build-package/assets/sound/laser_shoot4.wav
+build-package/assets/sound/xs_laser.wav
+build-package/x64/Release/ALL_BUILD/ALL_BUILD.recipe
+build-package/x64/Release/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate
+build-package/x64/Release/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.command.1.tlog
+build-package/x64/Release/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.read.1.tlog
+build-package/x64/Release/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.write.1.tlog
+build-package/x64/Release/ZERO_CHECK/ZERO_CHECK.recipe
+build-package/x64/Release/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.command.1.tlog
+build-package/x64/Release/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog
+build-package/x64/Release/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.write.1.tlog
+build-package/x64/Release/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate
+bin/Debug/SDL2_image.dll
+bin/Debug/SDL2_mixer.dll
+bin/Debug/SDL2_ttf.dll
+bin/Debug/SDL2.dll
+bin/Release/SDL2_image.dll
+bin/Release/SDL2_mixer.dll
+bin/Release/SDL2_ttf.dll
+bin/Release/SDL2.dll
+bin/Release/SDLShooter-Windows.exe
