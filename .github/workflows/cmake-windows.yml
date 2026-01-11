@@ -1,0 +1,120 @@
+name: CMake Build on Windows
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  # 构建配置
+  BUILD_TYPE: Debug
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: 缓存 vcpkg
+      id: cache-vcpkg
+      uses: actions/cache@v4
+      with:
+        path: |
+          vcpkg
+          C:\Users\runneradmin\AppData\Local\vcpkg
+        key: ${{ runner.os }}-vcpkg-${{ hashFiles('**/CMakeLists.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-vcpkg-
+
+    - name: 安装 Visual Studio 2022 构建工具
+      uses: microsoft/setup-msbuild@v2
+
+    - name: 安装 CMake
+      uses: jwlawson/actions-setup-cmake@v1.14
+      with:
+        cmake-version: '3.29.6'
+
+    - name: 安装 vcpkg 和依赖
+      id: vcpkg-install
+      if: steps.cache-vcpkg.outputs.cache-hit != 'true'
+      run: |
+        # 安装 vcpkg
+        git clone https://github.com/Microsoft/vcpkg.git
+        cd vcpkg
+        .\bootstrap-vcpkg.bat -disableMetrics
+
+        # 安装 SDL2 依赖
+        .\vcpkg install sdl2:x64-windows sdl2-image:x64-windows sdl2-mixer:x64-windows sdl2-ttf:x64-windows --triplet x64-windows
+
+        # 设置 vcpkg 工具链文件路径
+        echo "VCPKG_ROOT=$PWD" >> $env:GITHUB_ENV
+        echo "CMAKE_TOOLCHAIN_FILE=$PWD/scripts/buildsystems/vcpkg.cmake" >> $env:GITHUB_ENV
+        echo "vcpkg_dir=$PWD" >> $env:GITHUB_ENV
+
+    - name: 设置 vcpkg 环境变量（缓存命中时）
+      if: steps.cache-vcpkg.outputs.cache-hit == 'true'
+      run: |
+        echo "VCPKG_ROOT=$PWD/vcpkg" >> $env:GITHUB_ENV
+        echo "CMAKE_TOOLCHAIN_FILE=$PWD/vcpkg/scripts/buildsystems/vcpkg.cmake" >> $env:GITHUB_ENV
+        echo "vcpkg_dir=$PWD/vcpkg" >> $env:GITHUB_ENV
+
+    - name: 配置 CMake
+      run: |
+        # 使用 vcpkg 工具链文件配置 CMake
+        echo "配置CMake，使用vcpkg工具链: $env:CMAKE_TOOLCHAIN_FILE"
+        cmake -B build -S . `
+          -DCMAKE_TOOLCHAIN_FILE="$env:CMAKE_TOOLCHAIN_FILE" `
+          -G "Visual Studio 17 2022" `
+          -A x64 `
+          -DCMAKE_BUILD_TYPE=Debug
+        echo "CMake配置完成"
+
+    - name: 构建项目
+      run: |
+        echo "开始构建项目..."
+        cmake --build build --config Debug --verbose
+        echo "构建完成"
+
+    - name: 列出构建产物
+      run: |
+        echo "检查构建输出目录..."
+        dir /s /b build\Debug\*.exe || echo "Debug目录不存在"
+        dir /s /b build\Release\*.exe || echo "Release目录不存在"
+        dir /s /b bin\Debug\*.exe || echo "bin/Debug目录不存在"
+        dir /s /b bin\Release\*.exe || echo "bin/Release目录不存在"
+
+    - name: 测试可执行文件是否存在
+      run: |
+        # 检查多个可能的输出位置
+        $exeFound = $false
+
+        # 检查 build/Debug 目录
+        if (Test-Path "build\Debug\SDLShooter-Windows.exe") {
+          echo "构建成功: build\Debug\SDLShooter-Windows.exe"
+          $exeFound = $true
+        }
+
+        # 检查 build/Release 目录
+        if (Test-Path "build\Release\SDLShooter-Windows.exe") {
+          echo "构建成功: build\Release\SDLShooter-Windows.exe"
+          $exeFound = $true
+        }
+
+        # 检查 bin/Debug 目录
+        if (Test-Path "bin\Debug\SDLShooter-Windows.exe") {
+          echo "构建成功: bin\Debug\SDLShooter-Windows.exe"
+          $exeFound = $true
+        }
+
+        # 检查 bin/Release 目录
+        if (Test-Path "bin\Release\SDLShooter-Windows.exe") {
+          echo "构建成功: bin\Release\SDLShooter-Windows.exe"
+          $exeFound = $true
+        }
+
+        if (-not $exeFound) {
+          echo "错误: 未找到可执行文件"
+          exit 1
+        }
