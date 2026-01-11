@@ -80,10 +80,11 @@ jobs:
     - name: 列出构建产物
       run: |
         echo "检查构建输出目录..."
-        dir /s /b build\Debug\*.exe || echo "Debug目录不存在"
-        dir /s /b build\Release\*.exe || echo "Release目录不存在"
-        dir /s /b bin\Debug\*.exe || echo "bin/Debug目录不存在"
-        dir /s /b bin\Release\*.exe || echo "bin/Release目录不存在"
+        # 使用 cmd /c 执行 dir 命令，兼容 PowerShell 环境
+        cmd /c "dir /s /b build\Debug\*.exe 2>nul || echo Debug目录不存在"
+        cmd /c "dir /s /b build\Release\*.exe 2>nul || echo Release目录不存在"
+        cmd /c "dir /s /b bin\Debug\*.exe 2>nul || echo bin/Debug目录不存在"
+        cmd /c "dir /s /b bin\Release\*.exe 2>nul || echo bin/Release目录不存在"
 
     - name: 测试可执行文件是否存在
       run: |
